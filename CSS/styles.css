@@ -1,0 +1,47 @@
+/*
+Autor: ........
+*/
+body{
+background-color: #f0ffff;
+  text-align: center;
+}
+/*
+	INDEX	
+*/
+/* Cajas con contenido principal */
+
+.caja_imagen {
+    display: inline-block;
+    width: 30%;
+    vertical-align: middle;
+     /* Imagen de perfil */
+      img {
+        width: 60%;
+        border-radius: 999px; /* Para que la imagen se muestre en un círculo */
+        border-color: #f0ffff;
+      }
+  }
+  .caja_datos {
+    display: inline-block;
+    width: 20%;
+    text-align: left;
+    vertical-align: middle;
+     /* links y listas */
+
+      li {
+        line-height: 30px;
+      }
+
+      .enlaces {
+        line-height: 50px;
+        text-decoration: none;
+        color: black;  
+      }
+      /* Efecto al paasar por encima de los enlaces */
+
+        .enlaces:hover {
+          text-decoration: solid;
+          font-size: 20px;
+         }
+
+  }
